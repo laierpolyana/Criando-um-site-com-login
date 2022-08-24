@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+body {
+    background-color: #140e2e;
+}
+
+.container {
+    width: 95vw;
+    height: 95vh;
+    background: #140e2e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 400px;
+    height: 450px;
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 4px 4px rgb(88, 88, 88);
+}
+
+main h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: "Poppins", sans-serif
+}
+
+main form input {
+    width: 325px;
+    height: 20px;
+    padding: 8px;
+    margin-top: 16px;
+    border-color: rgba(128, 128, 128, 0.356);
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif
+}
+
+main form input[type ="submit"] {
+    cursor:pointer;
+    width: 350px;
+    height: 35px;
+    margin-top: 16px;
+    border: none;
+    background: #140e2e;
+    color: #fff;
+    padding: 8px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif
+}
+
+main form input[type ="submit"]:hover {
+    background-color: #cef678;
+    color: #000;
+}
+
+h1::after {
+    content:' ';
+    width: 200px;
+    height: 1.75px;
+    background-color: #cef678;
+    display: block;
+    margin: 0 auto;
+}
+
+main a {
+    color: #140e2e;
+}
+
+#conta {
+    margin-top: 35px;
+}
